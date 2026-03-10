@@ -1,0 +1,58 @@
+# Logs
+logs/
+*.log
+C:\Logs\
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# PowerShell
+.PSDebugContext
+.PSDebug
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+.DS_Store
+desktop.ini
+*.lnk
+
+# Credentials (IMPORTANT!)
+*.psd
+*.password
+credentials.ps1
+secrets.json
+.env
+.env.local
+
+# Build outputs
+bin/
+obj/
+out/
+
+# Test results
+TestResults/
+*.trx
+
+# Environment
+venv/
+env/
+
+# Project files
+.project
+.classpath
+
+# Others
+.history/
+.nuget/
+packages/
